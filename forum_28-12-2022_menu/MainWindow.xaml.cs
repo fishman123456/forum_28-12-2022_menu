@@ -24,5 +24,15 @@ namespace forum_28_12_2022_menu
         {
             InitializeComponent();
         }
+
+        private void MenuExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void menuAbout_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Версия 1, 2022-12-28");
+        }
     }
 }

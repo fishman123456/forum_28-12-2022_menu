@@ -5,18 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:forum_28_12_2022_menu"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="400" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Menu   IsMainMenu="True">
+        <Menu x:Name="form" Background="Bisque" IsMainMenu="True">
+            <Menu.ContextMenu>
+                <ContextMenu >
+                    <MenuItem Header="Контекст">
+                        <MenuItem Header="Первый">
+                        </MenuItem>
+                        <MenuItem Header="Второй">
+                        </MenuItem>
+                    </MenuItem>
+                </ContextMenu>
+            </Menu.ContextMenu>
             <MenuItem Header="Файл">
-
+                <MenuItem Header="Сохранить">
+                </MenuItem>
+                <MenuItem Header="Открыть">
+                </MenuItem>
             </MenuItem>
+            
             <MenuItem Header="Свойства">
-
+                <MenuItem Header="Размер">
+                </MenuItem>
+                <MenuItem Header="Цвет">
+                </MenuItem>
             </MenuItem>
             <MenuItem Header="О программе">
-
+                <MenuItem Name="menuAbout" Header="Версия" Click="menuAbout_Click">
+                </MenuItem>
+                <MenuItem Name="MenuExit" Header="Выход" Click="MenuExit_Click">
+                </MenuItem>
             </MenuItem>
+            
+           
 </Menu>
+
+        <Button Name="work" Margin="50,50,50,50" ToolTip="подсказка" FontWeight="Bold" FontSize="25" >
+            Worked
+        </Button>
     </Grid>
 </Window>
