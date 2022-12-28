@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "forum_28-12-2022_menu/1.0.0": {
+        "runtime": {
+          "forum_28-12-2022_menu.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "forum_28-12-2022_menu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
